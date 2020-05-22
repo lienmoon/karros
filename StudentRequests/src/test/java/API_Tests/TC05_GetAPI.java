@@ -23,7 +23,7 @@ public class TC05_GetAPI {
 	 */
 	@Test 
 	public void getPosts() {
-		String endPoint = "https://my-json-server.typicode.com/lienmoon/karros-challenges/posts/1";
+		String endPoint = "https://my-json-server.typicode.com/lienmoon/karros/posts/1";
 		Response response = APIMethods.apiGetMethod(endPoint);
 		Assert.assertEquals(response.getStatusCode(), 200);		
 		Assert.assertEquals(response.jsonPath().getInt("id"), 1);
