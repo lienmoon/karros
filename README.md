@@ -40,5 +40,5 @@
 - And make sure that the PATH environment should look like this /usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/bin:/Users/[youruser]/.rvm/bin
 
 ## Check the outputs
-- From the project folder, go to folder **StudentRequests/target/surefire-reports/index.html
+- From the project folder, go to folder **StudentRequests/target/surefire-reports/index.html**
 - Open the file index.html, you can see the test result and logs
