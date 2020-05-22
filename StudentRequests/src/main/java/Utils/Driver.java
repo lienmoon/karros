@@ -24,7 +24,7 @@ public class Driver {
 		if (os.contains("mac")) {
 			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/geckodriver");
 		} else {
-			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "\\geckodriver_window.exe");
 		}
 
 		WebDriver driver = new FirefoxDriver();
