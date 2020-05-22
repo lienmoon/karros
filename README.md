@@ -29,9 +29,11 @@
    - **Notes** the API endPoint has been changed to "https://my-json-server.typicode.com/lienmoon/karros-challenges/posts/1" 
         
 # How to run the scripts:
-1. Install Firefox (https://www.mozilla.org/en-US/exp/firefox/new/)
+1. Install Java https://www.java.com/en/download/ and config JAVA_HOME environment
+2. Instal Maven https://maven.apache.org/install.html and config MAVEN_HOME environment 
+3. Install Firefox (https://www.mozilla.org/en-US/exp/firefox/new/)
 2. Clone the repo
-2. Open Terminal: $ cd to/the/project/folder
+2. Open Terminal and go to the project directory StudentRequests: $ cd to/the/project/folder
 3. Enter command: $ mvn test
 
 - **Notes** This is maven project, if the command line $mvn test is not working, so please help to install maven
