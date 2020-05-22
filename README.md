@@ -26,7 +26,7 @@
    - **Validations:** 
      1. Status Code: 200
      2. Reponse Body
-   - **Notes** the API endPoint has been changed to "https://my-json-server.typicode.com/lienmoon/karros-challenges/posts/1" 
+   - **Notes** the API endPoint has been changed to "https://my-json-server.typicode.com/lienmoon/karros/posts/1" 
         
 # How to run the scripts:
 1. Install Java https://www.java.com/en/download/ and config JAVA_HOME environment
