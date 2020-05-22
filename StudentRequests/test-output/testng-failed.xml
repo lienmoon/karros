@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test02(failed)" parallel="none">
+    <classes>
+      <class name="StudentRequests.TC02_Filter_InactiveRequestsTest">
+        <methods>
+          <include name="verifyFilterRequestsResult"/>
+          <include name="startBrowser"/>
+          <include name="endBrowser"/>
+        </methods>
+      </class> <!-- StudentRequests.TC02_Filter_InactiveRequestsTest -->
+      <class name="StudentRequests.TC03_Sort_FirstNameTest">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="endBrowser"/>
+        </methods>
+      </class> <!-- StudentRequests.TC03_Sort_FirstNameTest -->
+      <class name="Login.TC01_Test_Login">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="endBrowser"/>
+        </methods>
+      </class> <!-- Login.TC01_Test_Login -->
+    </classes>
+  </test> <!-- Test02(failed) -->
+</suite> <!-- Failed suite [Suite] -->
